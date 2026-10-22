@@ -117,7 +117,7 @@ Figma 레이어에 기억해 저장 시 같은 항목을 갱신한다. 그리고
 
 움직이는 풋프린트(◆ 모듈)를 쓰려면 보드의 `silkscreen.py`가 `registry()`(모듈 목록)와
 `instance_asset()`(복사본 미리보기)을 제공하고, `placement.json`에 `"editable_components": true`를 둔다.
-[lovelace-ruler](https://github.com/chanulee/lovelace-ruler)가 그 예다 (비공개).
+[lovelace-ruler](https://github.com/chanulee/lovelace-ruler)가 그 예다.
 
 ## 개발
 
