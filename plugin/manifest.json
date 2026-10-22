@@ -1,0 +1,20 @@
+{
+  "name": "LOVELACE PCB Silkscreen",
+  "id": "lovelace-pcb-silkscreen-dev",
+  "api": "1.0.0",
+  "main": "code.js",
+  "ui": "ui.html",
+  "editorType": [
+    "figma"
+  ],
+  "documentAccess": "dynamic-page",
+  "networkAccess": {
+    "allowedDomains": [
+      "none"
+    ],
+    "devAllowedDomains": [
+      "http://localhost:8767"
+    ],
+    "reasoning": "Talks only to the local KiCad bridge (tools/figma_bridge.py) on this computer."
+  }
+}
